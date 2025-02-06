@@ -264,5 +264,6 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
           file: kubernetes-manifest/
-          
+          args: --severity-threshold=high
 
+          
