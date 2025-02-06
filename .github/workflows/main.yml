@@ -30,7 +30,7 @@ jobs:
           npm run prettier
           npm test
         env:
-          CI: true 
+          CI: false
 
       - name: Build
         run: npm run build
