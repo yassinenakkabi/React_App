@@ -36,7 +36,7 @@ jobs:
         run: npm run build
         working-directory: ./quiz-app
 
-              # Setup sonar-scanner
+              # Setup sonar-scanner .
       - name: Setup SonarQube
         uses: warchant/setup-sonar-scanner@v8
 
